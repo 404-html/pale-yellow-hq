@@ -1,0 +1,25 @@
+const Discord = require('discord.js');
+const reddit = require('redwrap');
+module.exports = {
+	name: 'memes',
+	description: 'spicy memes xdd',
+	cooldown: 5,
+	execute(client, message, args) {
+		let max = 100;
+		reddit.r("dankmemes").sort('top').from('all').limit(max, function(err, data, res) {
+			if(err) return console.error(err);
+			let nb = 0;
+			do {
+				nb = Math.floor(Math.random() * max);
+			} while(!data.data.children[nb].data.url.endsWith('.jpg' || '.png' || '.gif'));
+			let embed = new Discord.RichEmbed()
+				.setTitle(data.data.children[nb].data.title)
+				.setColor(0xFF6AD5)
+				.setURL('http://reddit.com' + data.data.children[nb].data.permalink)
+				.setImage(data.data.children[nb].data.url)
+			message.channel.send({
+				embed
+			});
+		});
+	}
+}
