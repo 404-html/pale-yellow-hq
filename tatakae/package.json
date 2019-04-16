@@ -1,0 +1,35 @@
+{
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "TatsCode.js",
+  "scripts": {
+    "start": "node full-rework.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.4.2",
+    "opusscript": "^0.0.6",
+    "yt-search": "^0.4.1",
+    "winston": "^3.2.1",
+    "node-opus": "^0.3.1",
+    "node-geometry-dash": "^1.1.4",
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "enmap": "^4.8.1",
+    "better-sqlite-pool": "^0.2.2",
+    "ytdl-core": "^0.29.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
