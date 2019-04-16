@@ -1,47 +1,35 @@
 {
-  "name": "pbotv2",
-  "version": "2.0.0",
-  "description": "pbot discord.js bot",
-  "main": "index.js",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "TatsCode.js",
   "scripts": {
-    "test": "echo no test command",
-    "start": "node index.js"
+    "start": "node full-rework.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.4.2",
+    "opusscript": "^0.0.6",
+    "yt-search": "^0.4.1",
+    "winston": "^3.2.1",
+    "node-opus": "^0.3.1",
+    "node-geometry-dash": "^1.1.4",
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "enmap": "^4.8.1",
+    "better-sqlite-pool": "^0.2.2",
+    "ytdl-core": "^0.29.0"
+  },
+  "engines": {
+    "node": "8.x"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RazorApple/pBotv2.git"
+    "url": "https://glitch.com/edit/#!/hello-express"
   },
+  "license": "MIT",
   "keywords": [
-    "discord.js",
-    "bot",
-    "pbot",
-    "github",
-    "git",
-    "moment",
-    "commands",
-    "json"
-  ],
-  "author": "OwlsOwlAtNight",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RazorApple/pBotv2/issues"
-  },
-  "homepage": "https://github.com/RazorApple/pBotv2#readme",
-  "dependencies": {
-    "discord.js": "^11.4.2",
-    "express": "^4.16.4",
-    "latest-tweets": "^1.0.4",
-    "maljs": "^0.3.0",
-    "moment": "^2.24.0",
-    "moment-duration-format": "^2.2.2",
-    "node-geometry-dash": "^1.1.4",
-    "node-opus": "^0.3.1",
-    "redwrap": "^0.0.4",
-    "snekfetch": "^4.0.4",
-    "ytdl-core": "^0.29.0",
-    "yt-search": "^0.4.1"
-  },
-  "devDependencies": {
-    "ffmpeg-binaries": "^4.0.0"
-  }
+    "node",
+    "glitch",
+    "express"
+  ]
 }
