@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 module.exports = {
-    name: "mresume",
+    name: "resume",
     description: "Resume a track.",
 	cooldown: 5,
 	execute(client, message, args) {
