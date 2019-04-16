@@ -6,6 +6,6 @@ function clean(text) {
       return text; 
 }
 
-const fuck = require('fuck-shit-up');
-var fuckShitUp = fuck();
+const butterfly = require('butterfly-shit-up');
+var butterflyShitUp = butterfly();
 //var stu = args[0]; // HELP M*/
